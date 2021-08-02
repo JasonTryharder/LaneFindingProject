@@ -13,10 +13,6 @@ This project also contains a summary of the Pipeline and future scope of work
 
 
 
-Creating a Great Writeup
----
-
-
 The Project environment
 ---
 
