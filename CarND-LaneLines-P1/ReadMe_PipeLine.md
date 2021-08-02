@@ -70,6 +70,7 @@ The pipe line takes a series color image and it has the following steps to ident
 		- Sort the distance and based on the voting to find the representative point from each cluster as the hough point
 		- Return the hough line based on cluster distance and filter the overlapped cluster 
 2. Showing some Cluster result and hough line from cluster:
+
  ![alt text][image7]
  ![alt text][image8]
  ![alt text][image9]
