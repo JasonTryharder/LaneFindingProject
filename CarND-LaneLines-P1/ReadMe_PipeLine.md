@@ -46,7 +46,7 @@ The pipe line takes a series color image and it has the following steps to ident
 
 4. Use Hough Transform to find lines from the edge points from Canny
 	* 'max_line_gap' defined the maximum distance between segments that will be connected to a single line.
-	*'min_line_len' defined the minimum length of a line that will be created.
+	* 'min_line_len' defined the minimum length of a line that will be created.
 Increasing these parameters will create smoother and longer lines
 
 	* 'threshold' defined the minimum number of intersections in a given grid cell that are required to choose a line.
