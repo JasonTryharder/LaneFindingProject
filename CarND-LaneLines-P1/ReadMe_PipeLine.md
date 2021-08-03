@@ -44,7 +44,12 @@ The pipe line takes a series color image and it has the following steps to ident
 3. Mask the image with polygon to further reduce ROI and Edge detection using Canny 
 ![alt text][image3]
 
-4. Use Hough Transform to find lines from the edge points from Canny 
+4. Use Hough Transform to find lines from the edge points from Canny
+	* 'max_line_gap' defined the maximum distance between segments that will be connected to a single line.
+	*'min_line_len' defined the minimum length of a line that will be created.
+Increasing these parameters will create smoother and longer lines
+
+	* 'threshold' defined the minimum number of intersections in a given grid cell that are required to choose a line.
 ![alt text][image4]
 
 5. Find the corner point for each side by searching the point in "left" and "right" region based on the image dimension
