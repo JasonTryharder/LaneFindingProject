@@ -57,6 +57,8 @@ Increasing these parameters will create smoother and longer lines
  
  6. Extend the line to the polygon region boundary
  ![alt text][image6]
+ 
+ 7. Perform a sanity check to every frame using its previous thress (or n ) frames hough line moving average, assuming the road lines is changing gradually
 
 ### 2. Potential shortcomings
 1. the final line is found by search the point at each side ( "Left", "Right"), prone to noise. 
@@ -65,6 +67,7 @@ Increasing these parameters will create smoother and longer lines
 	- Erosion
 	- Canny edge detection 
 	- Hough transform
+	- Moving average length 
 3. Region based mask reduced ROI other part of the perception program need to compensate this loss
 
 ### 3. Effort to improve Pipeline
