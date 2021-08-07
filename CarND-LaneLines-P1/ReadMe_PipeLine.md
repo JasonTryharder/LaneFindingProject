@@ -90,7 +90,7 @@ Increasing these parameters will create smoother and longer lines
 	* Improve the voting process by implementing RASAC maybe helpful to reduce the effect from outlier
 
 4. ref: 
-	*
+	* Lane clustering paper[LaneCustering_paper]
  
  
 
