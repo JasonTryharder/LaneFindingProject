@@ -28,6 +28,9 @@ The goals / steps of this project are the following:
 [image9]: ./Summary_image/Cluster_Example1.png "Cluster_Example1"
 [image10]: ./Summary_image/Cluster_Example2.png "Cluster_Example2"
 [LaneCustering_paper]: ./Summary_image/A_Simple_and_Efficient_Lane_Detection_using_Cluste.pdf "laneDetection with clustering"
+[LaneClustering_link_repo]: (https://github.com/papaispicolo/CarND-LaneLines-P1)
+[Detect_curve_lines]: ./Summary_image/Improve_idea_CurveLines.pdf
+[MLApproach_detect_lines]:  ./Summary_image/Improve_idea_CurveLines.pdf
 
 
 
@@ -90,7 +93,9 @@ Increasing these parameters will create smoother and longer lines
 	* Improve the voting process by implementing RASAC maybe helpful to reduce the effect from outlier
 
 4. ref: 
-	* Lane clustering paper[LaneCustering_paper]
+	* Lane clustering paper [LaneCustering_paper] , Repo using it [LaneClustering_link_repo]
+	* [MLApproach_detect_lines]
+	* [Detect_curve_lines]
  
  
 
