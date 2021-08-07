@@ -27,6 +27,7 @@ The goals / steps of this project are the following:
 [image8]: ./Summary_image/Cluster_NotClean.png "Cluster_NotClean"
 [image9]: ./Summary_image/Cluster_Example1.png "Cluster_Example1"
 [image10]: ./Summary_image/Cluster_Example2.png "Cluster_Example2"
+[LaneCustering_paper]: ./Summary_image/A_Simple_and_Efficient_Lane_Detection_using_Cluste.pdf "laneDetection with clustering"
 
 
 
@@ -87,7 +88,9 @@ Increasing these parameters will create smoother and longer lines
 3. Next Step: 
 	* Notice the cluster reflect the hough line are noisy, out lier affect greatly in clustering process especially when using threshold to determing if a point is "close" or not
 	* Improve the voting process by implementing RASAC maybe helpful to reduce the effect from outlier
- 
+
+4. ref: 
+	*
  
  
 
