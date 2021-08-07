@@ -15,23 +15,6 @@ The goals / steps of this project are the following:
 * Identify the problems and Next steps 
 
 
-[//]: # (Image References)
-
-[image1]: ./Summary_image/Original.png "Original"
-[image2]: ./Summary_image/gray_blur.png "Gray_blur"
-[image3]: ./Summary_image/Canny_Maskedregion.png "Canny_Maskedregion"
-[image4]: ./Summary_image/Hough_Original.png "Hough_Original"
-[image5]: ./Summary_image/Hough_find_corner.png "Hough_Find_Corner"
-[image6]: ./Summary_image/Hough_Final.png "Hough_Final"
-[image7]: ./Summary_image/Cluster_Clean.png "Cluster_clean"
-[image8]: ./Summary_image/Cluster_NotClean.png "Cluster_NotClean"
-[image9]: ./Summary_image/Cluster_Example1.png "Cluster_Example1"
-[image10]: ./Summary_image/Cluster_Example2.png "Cluster_Example2"
-[LaneCustering_paper]: ./Summary_image/A_Simple_and_Efficient_Lane_Detection_using_Cluste.pdf "laneDetection with clustering"
-[LaneClustering_link_repo]: (https://github.com/papaispicolo/CarND-LaneLines-P1)
-[Detect_curve_lines]: ./Summary_image/Improve_idea_CurveLines.pdf
-[MLApproach_detect_lines]:  ./Summary_image/Improve_idea_CurveLines.pdf
-
 
 
 ---
@@ -98,4 +81,21 @@ Increasing these parameters will create smoother and longer lines
 	* [Detect_curve_lines]
  
  
+
+[//]: # (Image References)
+
+[image1]: ./Summary_image/Original.png "Original"
+[image2]: ./Summary_image/gray_blur.png "Gray_blur"
+[image3]: ./Summary_image/Canny_Maskedregion.png "Canny_Maskedregion"
+[image4]: ./Summary_image/Hough_Original.png "Hough_Original"
+[image5]: ./Summary_image/Hough_find_corner.png "Hough_Find_Corner"
+[image6]: ./Summary_image/Hough_Final.png "Hough_Final"
+[image7]: ./Summary_image/Cluster_Clean.png "Cluster_clean"
+[image8]: ./Summary_image/Cluster_NotClean.png "Cluster_NotClean"
+[image9]: ./Summary_image/Cluster_Example1.png "Cluster_Example1"
+[image10]: ./Summary_image/Cluster_Example2.png "Cluster_Example2"
+[LaneCustering_paper]: ./Summary_image/A_Simple_and_Efficient_Lane_Detection_using_Cluste.pdf "laneDetection with clustering"
+[LaneClustering_link_repo]: https://github.com/papaispicolo/CarND-LaneLines-P1
+[Detect_curve_lines]: ./Summary_image/Improve_idea_CurveLines.pdf
+[MLApproach_detect_lines]:  ./Summary_image/Improve_idea_CurveLines.pdf
 
