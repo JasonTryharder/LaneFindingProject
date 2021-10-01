@@ -1,0 +1,2 @@
+Please save your output images to this folder and include a description in your README of what each image shows.
+project_video_submission.mp4 is the final output of the program 
