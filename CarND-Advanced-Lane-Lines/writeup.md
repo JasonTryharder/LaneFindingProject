@@ -171,7 +171,6 @@ Mapping long sections of the road (i.e ~50m) to the birds-eye perspective makes 
 
 Also, if the radius of curvature decreases too fast(meaning that the line is becoming more curved), you can dynamically increase the width of the next window. On the other hand, when RoC increases(meaning the line is straight and we don't need too many windows), you can decrease the width and increase the height(decreasing the number of windows).
 
-6. 
 
 
 
